@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            background-color: rgb(222, 20, 161);
+            height: 80vh;
+            width: 30vh;
+        }
+
+        .box {
+            background-color: red;
+            height: 45px;
+            width: 34px;
+            animation-name: harrykaanimation;
+            /* keyframes sanga connect gareko xa */
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-timing-function: cubic-bezier(0, 1.23, 0.5, 0.22);
+            animation-delay: 1s;
+            animation-direction: reverse;
+            animation-play-state: running;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: harryKaAnimation 2s ease-in-out 3s 1, 
+                       harry2 3s ease-in-out 3s 1;
+          /*2 ota animation use garna comma key use garinxa mati jasta  */
+        }
+
+        @keyframes harrykaanimation {
+            from {background-color: aqua;}
+            to {
+
+                background-color: rgb(42, 164, 164);
+                transform: translateX(1000px);
+            }
+
+        }
+
+        @keyframes harry2 {
+            0% {
+                transform: rotate(100deg);
+            }
+
+            20% {
+                transform: rotate(200deg);
+            }
+
+            50% {
+                transform: rotate(220deg);
+            }
+
+            80% {
+                transform: rotate(300deg);
+            }
+
+            100% {
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+
+</html>

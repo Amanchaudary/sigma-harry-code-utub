@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><video-71></video-71></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Hey i am a box</div>
+        <div class="box">Hey i am a box</div>
+    </div>
+    <script>
+        let div = document.createElement("div");
+        div.innerHTML = "hey this is a inserted by aman"
+        document.querySelector(".container").before(div);
+        //  or another way
+        let cont = document.querySelector(".box");
+        cont.insertAdjacentElement("afterbegin")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "sotify",
+  "version": "1.0.0",
+  "description": "this is a spotify clone for my job",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "spotify",
+    "music"
+  ],
+  "author": "harry",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.6"
+  }
+}

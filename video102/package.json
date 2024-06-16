@@ -1,0 +1,24 @@
+{
+  "name": "aman",
+  "version": "1.0.0",
+  "description": "this is sigma course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aman",
+    "sigma",
+    "code",
+    "with",
+    "harry"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

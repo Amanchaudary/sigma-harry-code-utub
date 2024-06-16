@@ -1,0 +1,11 @@
+.red{
+    color: red;
+}
+.bgyello{
+    background-color: yellow;
+    /* class target garna . key use garne */
+}
+#seconddiv{
+    background-color: red;
+/* id target grna #tag use grane */
+}
